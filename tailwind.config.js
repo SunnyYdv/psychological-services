@@ -64,6 +64,7 @@ module.exports = {
         30: pxToRem(30),
         36: pxToRem(36),
         40: pxToRem(40),
+        64: pxToRem(64),
         80: pxToRem(80),
         90: pxToRem(90),
         100: pxToRem(100),
