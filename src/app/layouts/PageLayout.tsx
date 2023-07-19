@@ -5,7 +5,7 @@ import {Header} from "./Header";
 
 export const PageLayout: FC = memo(() => {
   return (
-    <div className={'flex flex-col min-h-screen w-full children:flex-grow'}>
+    <div className={'flex flex-col min-h-screen w-full children:grow'}>
         <Header/>
         <Outlet />
         <Footer/>
