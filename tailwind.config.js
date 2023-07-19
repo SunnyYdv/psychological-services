@@ -90,7 +90,7 @@ module.exports = {
       screens: {
         /* If you change this, check Breakpoint types and useWindowSize */
         'large-desktop': { max: '1800px' },
-        desktop: { max: '1200px' },
+        desktop: { max: '5000px' },
         tablet: { max: '900px' },
         mobile: { max: '600px' }
       },

@@ -85,7 +85,7 @@ import {Icons} from "#static/svg/EXPORT";
                 </div>
 
             </div>
-            <div className={'desktop:hidden mobile:block mx-16'}>
+            <div className={'desktop:hidden tablet:hidden mobile:block mx-16'}>
 
                 <div className={'flex justify-between'}>
                     <div onClick={toHome} className={'flex items-center cursor-pointer'}>
