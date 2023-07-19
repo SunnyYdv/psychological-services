@@ -23,9 +23,8 @@ export const Contact =()=>{
 
 
 
-
-        <div className={'flex gap-x-30 mt-30'}>
-            <div className={'text-16 mb-16'}>SOCIAL:</div>
+        <div className={'text-16 mb-16 mt-30'}>SOCIAL:</div>
+        <div className={'flex gap-x-30'}>
             <div className={'flex cursor-pointer'}>
                 <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" width="19" height="19" rx="5" fill="#FDB0FF"/>
