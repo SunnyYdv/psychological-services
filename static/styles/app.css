@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-text {
+  writing-mode: vertical-rl;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 200;
+  src: url('../fonts/Rubik-Light.woff2'), url('../fonts/Rubik-Light.woff'), url('../fonts/Rubik-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 400;
+  src: url('../fonts/Rubik-Regular.woff2'), url('../fonts/Rubik-Regular.woff'),
+  url('../fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 700;
+  src: url('../fonts/Rubik-Bold.woff2'), url('../fonts/Rubik-Bold.woff'), url('../fonts/Rubik-Bold.ttf');
+}
+
+.absolute-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .absolute-horizontal-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+   .absolute-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  } 
+    .absolute-top {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+* {
+  font-family: 'Rubik' !important;
+  padding: 0;
+  margin: 0;
+}
+
