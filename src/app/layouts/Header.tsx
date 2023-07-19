@@ -26,7 +26,7 @@ import { useLocation, useNavigate } from "react-router";
 
 
 
-    return <div className={'mt-20 mx-100 flex items-center justify-between'}>
+    return <div className={'mt-20 mx-100 flex items-center justify-between mobile:hidden'}>
                 <div onClick={toHome} className={'flex items-center cursor-pointer'}>
                     <div className={'-rotate-90 text-20 font-bold tracking-widest -ml-15'}>PSC</div>
                     <div className={'text-12'}>
