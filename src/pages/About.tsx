@@ -1,10 +1,10 @@
 export const About = () => {
 
   return (
-    <div className={"max-w-1400 py-30 mx-auto px-100 mobile:px-16 pb-300"}>
+    <div className={"max-w-1400 relative py-30 mx-auto px-100 mobile:px-26 pb-300"}>
       <img
         src="/images/journey.webp"
-        className="max-w-600 max-h-600 mx-auto mb-120"
+        className="max-w-600 max-h-600 mobile:max-w-320 object-fit mx-auto mb-120"
       />
       <img src="/images/who-we-are.webp" className="mx-auto mb-50" />
       <div className="flex items-center space-x-300 mobile:space-x-0 mobile:flex-col mb-160 mobile:mb-40">
@@ -24,15 +24,21 @@ export const About = () => {
         </div>
         <img
           src="/images/hearts.webp"
-          className="max-h-350 max-w-350 mobile:mb-30"
+          className="max-h-350 max-w-350 mobile:max-w-180 mobile:mb-30"
         />
       </div>
+      <img
+          src="/images/list.webp"
+          className="-z-10 absolute right-0 -mr-10 max-h-280 max-w-280"
+        />
       <img src="/images/our-mission.webp" className="mx-auto mb-50" />
-      <div className="mb-40">
+      
+      <div className="mb-80">
         <img
           src="/images/cloud-1.webp"
-          className="-z-10 absolute left-0 max-h-200 max-w-450"
+          className="-z-10 -ml-80 absolute left-0 max-h-200 max-w-450"
         />
+
 
         <p className="max-w-50% ml-auto">
           <h2 className="text-64 mobile:text-30 mb-20">
@@ -44,10 +50,10 @@ export const About = () => {
           the barriers of stigma and misinformation.
         </p>
       </div>
-      <div>
+      <div className="mb-80">
         <img
           src="/images/cloud-2.webp"
-          className="-z-10 absolute right-0 max-h-200 max-w-450"
+          className="-z-10 absolute  -mr-80 right-0 max-h-200 max-w-450"
         />
         <p className="max-w-50% ">
           <h2 className="text-64 mobile:text-30 mb-20">
@@ -57,7 +63,31 @@ export const About = () => {
           issues. By catching potential problems early, we can provide effective
           interventions and prevent further complications.
         </p>
+      </div>  
+          <div className="mb-80">
+        <img
+          src="/images/cloud-3.webp"
+          className="-z-10 absolute -ml-80 left-0 max-h-200 max-w-450"
+        />
+        <p className="max-w-50% ml-auto">
+          <h2 className="text-64 mobile:text-30 mb-20">
+          Personalized Care
+          </h2>
+          Our commitment is to provide personalized and comprehensive care to individuals at all stages of their mental health journey. We understand that every person's experience is unique, and we tailor our approach accordingly.
+        </p>
       </div>
+      <div className="mb-80">
+        <img
+          src="/images/stick.webp"
+          className="-z-10 absolute right-0 max-h-437 max-w-437"
+        />
+        <p className="max-w-50% ">
+          <h2 className="text-64 mobile:text-30 mb-20">
+          Supportive Environment
+          </h2>
+          Above all, we strive to create a supportive environment that respects individual needs. We believe in the potential for growth and wellbeing in each person, and we are here to nurture that potential every step of the way.
+        </p>
+      </div> 
     </div>
   );
 };
