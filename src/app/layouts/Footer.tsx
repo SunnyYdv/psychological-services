@@ -82,10 +82,10 @@ import {Icons} from "#static/svg/EXPORT";
 
                 </div>
             </div>
-            <div className={'flex justify-between'}>
-                <img className={'max-h-180 max-w-437'} src={'./images/bushesFooterOne.png'} alt=""/>
-                <img className={'max-h-180 max-w-239'} src={'./images/bushesFooterTwo.png'} alt=""/>
-                <img className={'max-h-180 max-w-437'} src={'./images/bushesFooterTree.png'} alt=""/>
+            <div className={'flex justify-between pointer-events-none'}>
+                <img src={'./images/bushesFooterOne.svg'} alt=""/>
+                <img src={'./images/bushesFooterTwo.svg'} alt=""/>
+                <img src={'./images/bushesFooterTree.svg'} alt=""/>
             </div>
 
         </>
