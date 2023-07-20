@@ -92,7 +92,7 @@ export const About = () => {
       </div>
       <img src="/images/our-services.webp" className="mx-auto my-120 tablet:my-40" />
       <div className="flex gap-20 flex-wrap justify-center mx-auto">
-        <div className="bg-services-green max-w-384 rounded-30 relative p-40">
+        <div className="bg-services-green max-w380 rounded-30 relative p-40">
           <div className="w-full h-full  border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
           <h2 className="mb-100 tablet:mb-50 text-40">1</h2>
           <h3 className="text-24 mb-10">Individual Therapy</h3>
@@ -103,7 +103,7 @@ export const About = () => {
             goals.
           </p>
         </div>
-        <div className="bg-services-orange max-w-384 rounded-30 relative p-40">
+        <div className="bg-services-orange max-w380 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
           <h2 className="mb-100 tablet:mb-50 text-40">2</h2>
           <h3 className="text-24 mb-10">Group Therapy</h3>
@@ -113,7 +113,7 @@ export const About = () => {
             provides a unique opportunity for shared healing and growth.
           </p>
         </div>
-        <div className="bg-services-blue max-w-384 rounded-30 relative p-40">
+        <div className="bg-services-blue max-w380 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
           <h2 className="mb-100 tablet:mb-50 text-40">3</h2>
           <h3 className="text-24 mb-10">Familie Therapy</h3>
@@ -121,7 +121,7 @@ export const About = () => {
           Designed to nurture change and development within families. Our therapists work with families to foster understanding, resolve conflicts, and strengthen relationships.
           </p>
         </div>
-        <div className="bg-services-violet max-w-384 rounded-30 relative p-40">
+        <div className="bg-services-violet max-w380 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
           <h2 className="mb-100 tablet:mb-50 text-40">4</h2>
           <h3 className="text-24 mb-10">Psychiatric Evaluation</h3>
@@ -129,7 +129,7 @@ export const About = () => {
           Comprehensive assessments to accurately diagnose mental health conditions and, if necessary, a plan for medication management is made under the careful supervision of our psychiatric professionals.
           </p>
         </div>
-        <div className="bg-services-pink max-w-384 rounded-30 relative p-40">
+        <div className="bg-services-pink max-w380 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
           <h2 className="mb-100 tablet:mb-50 text-40">5</h2>
           <h3 className="text-24 mb-10">Wellness Workshops</h3>

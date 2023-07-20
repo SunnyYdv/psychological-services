@@ -5,6 +5,7 @@ module.exports = {
   white: "#FFFFFF",
   black: "#000000",
   neutral: '#262626',
+  stone:"#A8A29E",
   error: "#B3212A",
   warning: "#FFAA01",
   success: "#00843F",
