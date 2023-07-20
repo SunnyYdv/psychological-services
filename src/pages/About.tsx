@@ -1,16 +1,16 @@
 export const About = () => {
   return (
     <div
-      className={"max-w-1400 relative py-30 mx-auto px-100 mobile:px-26 pb-300"}
+      className={"max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
     >
       <img
         src="/images/journey.webp"
-        className="max-w-600 max-h-600 mobile:max-w-320 object-fit mx-auto mb-120"
+        className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120"
       />
       <img src="/images/who-we-are.webp" className="mx-auto mb-50" />
-      <div className="flex items-center space-x-300 mobile:space-x-0 mobile:flex-col mb-160 mobile:mb-40">
-        <div className="mobile:order-last">
-          <h2 className="text-64 mobile:text-30 mb-20">History</h2>
+      <div className="flex items-center space-x-300 tablet:space-x-0 tablet:flex-col tablet:items-end mb-160 tablet:mb-40">
+        <div className="tablet:order-last">
+          <h2 className="text-64 tablet:text-30 mb-20">History</h2>
           <p>
             Founded in 2008, we have a proud history of providing compassionate
             and comprehensive mental health services. We started with a small
@@ -25,23 +25,23 @@ export const About = () => {
         </div>
         <img
           src="/images/hearts.webp"
-          className="max-h-350 max-w-350 mobile:max-w-180 mobile:mb-30"
+          className="max-h-350 max-w-350 tablet:max-w-180 tablet:mb-30"
         />
       </div>
-      <img
-        src="/images/list.webp"
-        className="-z-10 absolute right-0 -mr-10 max-h-280 max-w-280"
-      />
+
       <img src="/images/our-mission.webp" className="mx-auto mb-50" />
 
-      <div className="mb-80">
+      <div className="mb-80 tablet:pt-180 relative">
         <img
           src="/images/cloud-1.webp"
-          className="-z-10 -ml-80 absolute left-0 max-h-200 max-w-450"
+          className="-z-10 -ml-80 absolute top-0 tablet:top-50 left-0 max-h-200 -ml-160 tablet:-ml-50 max-w-450 tablet:max-w-180"
         />
-
-        <p className="max-w-50% ml-auto">
-          <h2 className="text-64 mobile:text-30 mb-20">
+      <img
+        src="/images/list.webp"
+        className="-z-10 absolute right-0 top-0 -mr-120 tablet:-mr-30 -top-100 max-h-230 max-w-230 tablet:max-w-100 tablet:top-0"
+      />
+        <p className="max-w-50% tablet:max-w-full ml-auto">
+          <h2 className="text-64 tablet:text-30 mb-20">
             Promoting Mental Health
           </h2>
           Our mission begins with promoting mental health as a critical part of
@@ -50,34 +50,34 @@ export const About = () => {
           the barriers of stigma and misinformation.
         </p>
       </div>
-      <div className="mb-80">
+      <div className="mb-80 tablet:pt-200 relative">
         <img
           src="/images/cloud-2.webp"
-          className="-z-10 absolute  -mr-80 right-0 max-h-200 max-w-450"
+          className="-z-10 absolute top-0 -mr-140 tablet:-mr-50 right-0 max-h-200 max-w-450 tablet:max-w-280"
         />
-        <p className="max-w-50% ">
-          <h2 className="text-64 mobile:text-30 mb-20">Early Identification</h2>
+        <p className="max-w-50% tablet:max-w-full">
+          <h2 className="text-64 tablet:text-30 mb-20">Early Identification</h2>
           We prioritize prevention and early identification of mental health
           issues. By catching potential problems early, we can provide effective
           interventions and prevent further complications.
         </p>
       </div>
-      <div className="mb-80 mobile:pt-200 relative">
+      <div className="mb-80 tablet:pt-200 relative">
         <img
           src="/images/cloud-3.webp"
-          className="-z-10 absolute -ml-80 left-0 mobile:top-0 max-h-200 max-w-450 mobile:max-w-280"
+          className="-z-10 absolute  -ml-160 tablet:-ml-50 left-0 tablet:top-0 max-h-200 max-w-450 tablet:max-w-280"
         />
-        <p className="max-w-50% mobile:max-w-full ml-auto ">
-          <h2 className="text-64 mobile:text-30 mb-20">Personalized Care</h2>
+        <p className="max-w-50% tablet:max-w-full ml-auto ">
+          <h2 className="text-64 tablet:text-30 mb-20">Personalized Care</h2>
           Our commitment is to provide personalized and comprehensive care to
           individuals at all stages of their mental health journey. We
           understand that every person's experience is unique, and we tailor our
           approach accordingly.
         </p>
       </div>
-      <div className="mb-80 mobile:mb-50 relative">
-        <p className="max-w-50% mobile:max-w-full mobile:pb-200">
-          <h2 className="text-64 mobile:text-30 mb-20">
+      <div className="mb-80 tablet:mb-50 relative">
+        <p className="max-w-50% tablet:max-w-full tablet:pb-200">
+          <h2 className="text-64 tablet:text-30 mb-20">
             Supportive Environment
           </h2>
           Above all, we strive to create a supportive environment that respects
@@ -87,14 +87,14 @@ export const About = () => {
         </p>
         <img
           src="/images/stick.webp"
-          className="-z-10 absolute right-0 -mr-100 max-h-280 max-w-280 mobile:max-w-180 mobile:max-h-180 bottom-0 mobile:-mr-30"
+          className="-z-10 absolute right-0 -mr-100 max-h-280 max-w-280 tablet:max-w-180 tablet:max-h-180 bottom-0 tablet:-mr-30"
         />
       </div>
-      <img src="/images/our-services.webp" className="mx-auto my-120 mobile:my-10" />
-      <div className="flex gap-20 flex-wrap">
+      <img src="/images/our-services.webp" className="mx-auto my-120 tablet:my-40" />
+      <div className="flex gap-20 flex-wrap justify-center mx-auto">
         <div className="bg-services-green max-w-384 rounded-30 relative p-40">
           <div className="w-full h-full  border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
-          <h2 className="mb-100 mobile:mb-50 text-40">1</h2>
+          <h2 className="mb-100 tablet:mb-50 text-40">1</h2>
           <h3 className="text-24 mb-10">Individual Therapy</h3>
           <p>
             One-on-one sessions tailored to meet the unique needs of each
@@ -105,7 +105,7 @@ export const About = () => {
         </div>
         <div className="bg-services-orange max-w-384 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
-          <h2 className="mb-100 mobile:mb-50 text-40">2</h2>
+          <h2 className="mb-100 tablet:mb-50 text-40">2</h2>
           <h3 className="text-24 mb-10">Group Therapy</h3>
           <p>
             A supportive environment where individuals can learn from and
@@ -115,7 +115,7 @@ export const About = () => {
         </div>
         <div className="bg-services-blue max-w-384 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
-          <h2 className="mb-100 mobile:mb-50 text-40">3</h2>
+          <h2 className="mb-100 tablet:mb-50 text-40">3</h2>
           <h3 className="text-24 mb-10">Familie Therapy</h3>
           <p>
           Designed to nurture change and development within families. Our therapists work with families to foster understanding, resolve conflicts, and strengthen relationships.
@@ -123,7 +123,7 @@ export const About = () => {
         </div>
         <div className="bg-services-violet max-w-384 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
-          <h2 className="mb-100 mobile:mb-50 text-40">4</h2>
+          <h2 className="mb-100 tablet:mb-50 text-40">4</h2>
           <h3 className="text-24 mb-10">Psychiatric Evaluation</h3>
           <p>
           Comprehensive assessments to accurately diagnose mental health conditions and, if necessary, a plan for medication management is made under the careful supervision of our psychiatric professionals.
@@ -131,7 +131,7 @@ export const About = () => {
         </div>
         <div className="bg-services-pink max-w-384 rounded-30 relative p-40">
           <div className="w-full h-full border absolute top-8 bottom-0 left-8 right-0 border-neutral rounded-30" />
-          <h2 className="mb-100 mobile:mb-50 text-40">5</h2>
+          <h2 className="mb-100 tablet:mb-50 text-40">5</h2>
           <h3 className="text-24 mb-10">Wellness Workshops</h3>
           <p>
           Regularly scheduled sessions focusing on stress management, mindfulness, self-care strategies, and other topics related to mental health and wellbeing.

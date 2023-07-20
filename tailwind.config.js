@@ -136,7 +136,9 @@ module.exports = {
       },
       maxWidth: {
         ...spacing,
+        100: pxToRem(100),
         180: pxToRem(180),
+        230: pxToRem(230),
         280: pxToRem(280),
         320: pxToRem(320),
         325: pxToRem(325),
