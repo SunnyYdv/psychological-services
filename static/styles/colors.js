@@ -4,6 +4,7 @@ module.exports = {
   transparent: "transparent",
   white: "#FFFFFF",
   black: "#000000",
+  neutral: '#262626',
   error: "#B3212A",
   warning: "#FFAA01",
   success: "#00843F",
@@ -15,6 +16,13 @@ module.exports = {
     50: "#9C9C9C",
     90: "#2e2e2e",
     dark: "#292D32",
+  },
+  services:{
+    green: '#D8F5D3',
+    violet: "#E6D3F5",
+    pink: '#F5D3EB',
+    blue: '#D3E9F5',
+    orange: '#F5E1D3'
   },
 };
 
