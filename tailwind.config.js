@@ -34,7 +34,7 @@ module.exports = {
       boxShadow: {
         'basic-1': '0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 5px 8px rgba(0, 0, 0, 0.08)',
         'basic-2': '0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 25px 20px 0px rgba(0, 0, 0, 0.12)',
-        'interactive-1': '0px 4px 4px rgba(0, 0, 0, 0.08)',
+        'interactive-1': '0px 0px 10px 3px rgba(0, 0, 0, 0.12)',
         'interactive-2': '0px 20px 12px 0px rgba(0, 0, 0, 0.12)'
       },
       flex: {
@@ -274,7 +274,11 @@ module.exports = {
         'ew-resize': 'ew-resize',
         'col-resize': 'col-resize',
         grabbing: 'grabbing'
+      },
+      rotate: {
+        4: '(4deg)'
       }
+
     }
   }
 }
