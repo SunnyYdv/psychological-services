@@ -62,3 +62,323 @@
   margin: 0;
 }
 
+
+@keyframes animatedText {
+  from {
+    /*transform: translate3d(0,190px,0);*/
+    opacity: 0
+  }
+
+  to {
+  /*  transform: translate3d(0,0,0);*/
+    opacity: 1
+  }
+}
+
+.animatedText {
+  opacity: 0;
+  animation-name: animatedText;
+  -webkit-animation-name: animatedText;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both
+}
+
+
+@keyframes animatedCircle {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.animatedCircle {
+  opacity: 0;
+  animation-name: animatedCircle;
+  -webkit-animation-name: animatedCircle;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+@keyframes animatedCircle2 {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.animatedCircle2 {
+  opacity: 0;
+  animation-name: animatedCircle2;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animatedCircle2;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay:2s
+}
+
+@keyframes animatedCircle3 {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.animatedCircle3 {
+  opacity: 0;
+  animation-name: animatedCircle3;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animatedCircle3;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay:3s
+}
+
+
+
+@keyframes animatedCircle4 {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.animatedCircle4 {
+  opacity: 0;
+  animation-name: animatedCircle4;
+  animation-duration: 4s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animatedCircle4;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay:3.5s
+}
+
+
+
+@keyframes animatedCloudRight {
+  from {
+    transform: translate3d(410px,0,0);
+    opacity: 0
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+.animatedCloudRight {
+  opacity: 0;
+  animation-name: animatedCloudRight;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-name: animatedCloudRight;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+@keyframes animatedCloudLeft {
+  from {
+    transform: translate3d(-450px,0,0);
+    opacity: 0
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+.animatedCloudLeft {
+  opacity: 0;
+  animation-name: animatedCloudLeft;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-name: animatedCloudLeft;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+@keyframes animatedHeart {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.animatedHeart {
+  opacity: 0;
+  animation-name: animatedText;
+  -webkit-animation-name: animatedText;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 3s;
+}
+
+
+@keyframes animatedCloudOutLittle {
+  from {
+    transform: translate3d(400px,-30px,0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+.animatedCloudOutLittle {
+  opacity: 0;
+  animation-name: animatedCloudOutLittle;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-name: animatedCloudOutLittle;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+
+@keyframes animatedCloudOutBigLeft {
+  from {
+    transform: translate3d(400px,-150px,0);
+    opacity:1;
+  }
+
+  to {
+    transform: translate3d(0,-350px,0);
+    opacity:1;
+  }
+}
+
+.animatedCloudOutBigLeft {
+  opacity: 0;
+  animation-name: animatedCloudOutBigLeft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-name: animatedCloudOutBigLeft;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+@keyframes animatedCloudOutRight {
+  from {
+    transform: translate3d(-400px,-80px,0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+.animatedCloudOutRight {
+  opacity: 0;
+  animation-name: animatedCloudOutRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  -webkit-animation-name: animatedCloudOutRight;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+}
+
+
+@keyframes pulse {
+  from {
+    transform: scale(.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.85);
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes branch {
+  0% {transform: rotate(160deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(160deg);}
+}
+
+.branch {
+  animation: branch 2s infinite linear;
+}
+
+@keyframes watch {
+  100% {transform: rotate(360deg);}
+  }
+.watch {
+  animation: watch 5s infinite linear;
+}
+
+.clip {
+  animation: clip 4s infinite; /* Анимация */
+  position: absolute; /* Абсолютное позиционирование */
+  /* Прячем часть текста */
+  width: 200px; /* Ширина блока */
+  background: linear-gradient(0deg, rgba(250,253,45,1) 27%, rgba(0,0,0,1) 100%);
+}
+@keyframes clip {
+  from { clip: rect(0, auto, 0, auto); }
+  to { clip: rect(0, auto, 220px, auto); }
+}
+
+
+/*
+.moving {
+  animation: moving 6s infinite linear;
+  transform-origin: 50% 50% 0;
+}
+@keyframes moving {
+  100% {transform: rotate(360deg);}
+
+}*/
