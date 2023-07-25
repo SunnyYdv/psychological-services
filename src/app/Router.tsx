@@ -8,7 +8,6 @@ import {
 } from "react-router";
 import { createBrowserRouter } from "react-router-dom";
 import { PageLayout } from "./layouts";
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<PageLayout />}>
