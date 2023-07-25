@@ -16,10 +16,10 @@ export const MainPageMobile:React.FC=()=>{
               <div className={'text-30 max-w-270'}>PSYCHOLOGICAL SERVICES CENTER</div>
               <div className={'text-16 mt-20'}>Our specialties include couples therapy, communication enhancement, navigating divorce, self-esteem building, and pre-marital counseling. addressing infidelity, adjusting to break-ups, relationship skill-building.</div>
               <img className={'mt-20 ml-36'} src={"./images/home-learn-more.svg"} alt=""/>
-              {/*<div className={'relative'}>*/}
-              {/*    <img className={'absolute top-10 left-100'} src={"./images/cloud-mobile.svg"} alt=""/>*/}
-              {/*    <img className={'absolute top-250 -left-100'} src={"./images/home-cloud-2part.svg"} alt=""/>*/}
-              {/*</div>*/}
+              <div className={''}>
+                  <img className={'ml-100'} src={"./images/cloud-mobile.svg"} alt=""/>
+                  <img className={'-ml-100'} src={"./images/home-cloud-2part.svg"} alt=""/>
+              </div>
           </div>
 
 
@@ -80,7 +80,7 @@ export const MainPageMobile:React.FC=()=>{
           </div>
 
 
-          <div className={'relative mt-80'}>
+          <div className={'relative mt-110'}>
               <div className={'flex justify-center'}>
                   <img className={'max-w-400'} src={"./images/home-chance.svg"} alt=""/>
               </div>
@@ -112,13 +112,6 @@ export const MainPageMobile:React.FC=()=>{
           <div className={'justify-center flex mt-50 mb-80'}>
               <img src={"./images/house.svg"} alt=""/>
           </div>
-
-
-
-
-
-
-
 
       </>
   );

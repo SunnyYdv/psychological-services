@@ -51,7 +51,7 @@ import { useLocation, useNavigate } from "react-router";
             </div>
             <div className={'desktop:hidden mobile:block'}>
                 <img onClick={()=>setToggleBurger(!toggleBurger)} className={'absolute right-16'} src="./images/burger.svg" alt=""/>
-                <div className={cls('text-12 absolute right-16 top-60 border-2 border-white p-20 rounded-8 shadow', toggleBurger && 'block' || 'hidden' )}>
+                <div className={cls('bg-white text-12 absolute right-16 top-60 border-2 border-white p-20 rounded-8 shadow', toggleBurger && 'block' || 'hidden' )}>
                     <div onClick={()=>{toAbout(); setToggleBurger(false)}} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
                     })}>ABOUT</div>
                     <div onClick={()=>{toTeam(); setToggleBurger(false)}} className={cls("cursor-pointer my-8", {" ": location.pathname.includes("team"),
