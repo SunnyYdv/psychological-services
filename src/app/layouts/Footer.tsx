@@ -79,7 +79,7 @@ import {Icons} from "#static/svg/EXPORT";
                     </div>
                 </div>
                 <div className={'flex justify-between pointer-events-none'}>
-                    <img src={'./images/bushesFooterOne.svg'} alt=""/>
+                    <img className={'mt-5'} src={'./images/bushesFooterOne.svg'} alt=""/>
                     <img src={'./images/bushesFooterTwo.svg'} alt=""/>
                     <img src={'./images/bushesFooterTree.svg'} alt=""/>
                 </div>

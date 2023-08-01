@@ -1,11 +1,11 @@
 export const About = () => {
   return (
     <div
-      className={"max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
+      className={"mt-100 max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
     >
-      <img
+      <img onClick={()=>{window.scroll(0,10000000)}}
         src="/images/journey.webp"
-        className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120"
+        className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120 cursor-pointer"
       />
       <img src="/images/who-we-are.webp" className="mx-auto mb-50" />
       <div className="flex items-center space-x-300 tablet:space-x-0 tablet:flex-col tablet:items-end mb-160 tablet:mb-40">
