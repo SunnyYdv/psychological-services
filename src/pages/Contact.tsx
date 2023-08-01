@@ -5,7 +5,7 @@ import {Icons} from "#static/svg/EXPORT";
 export const Contact =()=>{
     return(
         <div className={'my-160 ml-100 mobile:ml-16 mr-16'}>
-        <img className={'pointer-events-none max-w-580'} src={'/images/get-in-touch.png'}/>
+        <img className={'pointer-events-none max-w-580 mobile:max-w-270'} src={'/images/get-in-touch.png'}/>
         <div className={'my-20 pointer-events-none'}>
             <a className={''} href={'mailto:pschello@gmail.com'}>
                 <img src={'/images/mail.svg'}/>

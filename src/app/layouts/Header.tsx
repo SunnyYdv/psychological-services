@@ -28,7 +28,7 @@ import { useLocation, useNavigate } from "react-router";
     return <>
         <div className={'z-10 mt-20 mx-100 flex items-center justify-between mobile:mt-20 mobile:mx-16 mobile:items-start'}>
             <img className={'z-0 absolute top-0 left-0 animatedCloudLeft'} src={'./images/header-cloud.svg'} alt=""/>
-            <img className={cls('absolute top-50 left-50% right-50% animatedCloudRight')} src={'./images/header-cloud2.svg'} alt=""/>
+            <img className={cls('absolute top-50 left-50% right-50% animatedCloudRight mobile:mt-100')} src={'./images/header-cloud2.svg'} alt=""/>
 
             <div onClick={toHome} className={'flex items-center cursor-pointer z-10'}>
                 <div className={'-rotate-90 text-20 font-bold tracking-widest -ml-15'}>PSC</div>
