@@ -1,25 +1,30 @@
-import React, {useRef, useState, useEffect} from "react";
+import React,{ useCallback } from "react";
 import cls from "classnames";
-import {TrueLove} from "./TrueLove";
+import {useNavigate} from "react-router";
 
 
 
 export const MainPageMobile:React.FC=()=>{
 
+    const navigate = useNavigate();
+    const toAbout = useCallback(() => {
+        navigate("/about");
+    }, []);
+
   return (
       <>
-
           <div className={'mt-150 ml-16 '}>
+              <img className={'z-0 absolute top-0 right-120 '} src={'./images/header-cloud.svg'} alt=""/>
+              <img className={cls('absolute top-50 left-50% right-50% mt-100')} src={'./images/header-cloud2.svg'} alt=""/>
               <div className={'text-16'}>MEET OUR NEW</div>
               <div className={'text-30 max-w-270'}>PSYCHOLOGICAL SERVICES CENTER</div>
               <div className={'text-16 mt-20'}>Our specialties include couples therapy, communication enhancement, navigating divorce, self-esteem building, and pre-marital counseling. addressing infidelity, adjusting to break-ups, relationship skill-building.</div>
-              <img className={'mt-20 ml-36'} src={"./images/home-learn-more.svg"} alt=""/>
+              <img onClick={toAbout} className={'mt-20 ml-36 cursor-pointer'} src={"./images/home-learn-more.svg"} alt=""/>
               <div className={''}>
                   <img className={'ml-100'} src={"./images/cloud-mobile.svg"} alt=""/>
-                  <img className={'-ml-100'} src={"./images/home-cloud-2part.svg"} alt=""/>
+                  <img className={'-ml-70 max-w-200'} src={"./images/home-cloud-2part.svg"} alt=""/>
               </div>
           </div>
-
 
           <div className={''}>
               <div className={'flex justify-center mt-40'}>

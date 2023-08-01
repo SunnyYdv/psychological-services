@@ -1,4 +1,4 @@
-import React, {useRef, useState, useEffect} from "react";
+import React, {useRef, useState, useEffect, useCallback} from "react";
 import { useIntersection } from 'react-use'
 import cls from "classnames";
 import {Frustration} from "./ForMain/Frustration";
@@ -8,10 +8,13 @@ import {WeHaveStory} from "./ForMain/WeHaveStory";
 import {Chance} from "./ForMain/Chance";
 import {Help} from "./ForMain/Help";
 import {MainPageMobile} from "./ForMain/MainPageMobile";
+import { useNavigate } from "react-router";
+
 
 
 
 export const MainPage:React.FC=()=>{
+    const navigate = useNavigate();
 
     const containerRef = useRef<HTMLDivElement>(null)
     const [isVisible, setIsVisible] = useState(false)
@@ -22,6 +25,10 @@ export const MainPage:React.FC=()=>{
             setIsVisible(true)
         }
     }, [view])
+
+    const toAbout = useCallback(() => {
+        navigate("/about");
+    }, []);
 
   return (
       <>
@@ -36,7 +43,7 @@ export const MainPage:React.FC=()=>{
                           <div className={'text-16'}>MEET OUR NEW</div>
                           <div className={'text-64'}>PSYCHOLOGICAL SERVICES CENTER</div>
                           <div className={'text-16 mt-20'}>Our specialties include couples therapy, communication enhancement, navigating divorce, self-esteem building, and pre-marital counseling. addressing infidelity, adjusting to break-ups, relationship skill-building.</div>
-                          <img className={'m-auto mt-65'} src={'./images/home-learn-more.svg'} alt=""/>
+                          <img onClick={toAbout} className={'m-auto mt-65 cursor-pointer'} src={'./images/home-learn-more.svg'} alt=""/>
                       </div>
                       <div className={''}>
                           <div className={''}>

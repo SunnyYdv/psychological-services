@@ -85,8 +85,8 @@ import {Icons} from "#static/svg/EXPORT";
                 </div>
 
             </div>
-            <div className={'desktop:hidden tablet:hidden mobile:block mx-16'}>
 
+            <div className={'desktop:hidden tablet:hidden mobile:block mx-16'}>
                 <div className={'flex justify-between'}>
                     <div onClick={toHome} className={'flex items-center cursor-pointer'}>
                         <div className={'-rotate-90 text-20 font-bold tracking-widest -ml-15'}>PSC</div>
@@ -96,7 +96,7 @@ import {Icons} from "#static/svg/EXPORT";
                             <p>CENTER</p>
                         </div>
                     </div>
-                    <div className={'text-16'}>
+                    <div className={'text-16 text-end'}>
 
                         <div onClick={()=>{toAbout(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
                         })}>ABOUT</div>
