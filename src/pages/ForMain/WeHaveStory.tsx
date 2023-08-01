@@ -11,7 +11,6 @@ export const WeHaveStory:React.FC=()=>{
     useEffect(() => {
         if (view?.isIntersecting) {
             setIsVisible(true)
-            console.log(isVisible);
         }
     }, [view])
 
@@ -22,7 +21,7 @@ export const WeHaveStory:React.FC=()=>{
                   <img className={cls('absolute  top-150', isVisible && 'animatedCloudOutBigLeft')} src={'./images/home-cloud-2part.svg'} alt=""/>
               </div>
               <div className={'flex justify-center'}>
-                  <img className={''} src={'./images/we-have-story.svg'} alt=""/>
+                  <img className={'max-w-820'} src={'./images/we-have-story.png'} alt=""/>
               </div>
 
               <div ref={containerRef} className={'flex '}>

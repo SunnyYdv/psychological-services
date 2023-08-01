@@ -6,7 +6,7 @@ import React from "react";
 export const Meeting:React.FC=()=>{
   return (
       <>
-          <div className={'mx-100 flex'}>
+          <div className={'mx-100 flex justify-between'}>
               <img src={"./images/meeting-photo.svg"} alt=""/>
               <div>
                   <img src={"./images/meeting.svg"} alt=""/>

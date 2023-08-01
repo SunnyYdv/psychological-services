@@ -8,8 +8,6 @@ export const MainPageMobile:React.FC=()=>{
 
   return (
       <>
-          <img className={'z-0 top-0 absolute'} src={'./images/header-cloud.svg'} alt=""/>
-          <img className={cls('absolute top-150 left-50% right-50%')} src={'./images/header-cloud2.svg'} alt=""/>
 
           <div className={'mt-150 ml-16 '}>
               <div className={'text-16'}>MEET OUR NEW</div>
@@ -25,7 +23,7 @@ export const MainPageMobile:React.FC=()=>{
 
           <div className={''}>
               <div className={'flex justify-center mt-40'}>
-                  <img className={''} src={'./images/we-have-story.svg'} alt=""/>
+                  <img className={''} src={'./images/we-have-story.png'} alt=""/>
               </div>
               <img className={cls('ml-200')} src={'./images/home-cloud-2part2.svg'} alt=""/>
               <img className={cls('-ml-100')} src={'./images/home-cloud-2part3.svg'} alt=""/>
@@ -38,6 +36,29 @@ export const MainPageMobile:React.FC=()=>{
               <div className={'text-16'}>But they have a little trouble. Sarracenia, family of carnivorous pitcher plants in the order Ericales, native to North and South America.
                   These low growing perennial herbs are notable for their modified pitcherlike leaves, which serve as pitfall traps to ensnare and digest insects and other small prey.</div>
           </div>
+
+          <div className={'flex justify-center mx-16'}>
+              <img className={''} src="./images/meeting-photo.svg" alt=""/>
+          </div>
+
+          <div className={'flex justify-end -mr-40 mt-60'}>
+              <img className={'rotate-180 max-w-220'} src={'./images/cloud-1.webp'} alt=""/>
+          </div>
+          <div className={'flex '}>
+              <img src="./images/stick.webp" alt="" className="rotate-180 max-w-170"/>
+          </div>
+
+          <div className={'mx-16 mt-40'}>
+              <div className={'flex gap-x-70'}>
+                  <div className={'text-30'}>True love</div>
+                  <img src={'./images/home-2hearts.svg'} alt=""/>
+              </div>
+              <div className={'text-16 mt-20'}>
+                  The Sarracenia refuses to eat insects for them love. Now she drinks water and photosynthesis like all ordinary flowers. Their feelings are getting stronger every day. They have first date, long moonlight walks. Their love story is so romantic.
+              </div>
+          </div>
+
+
           <div className={'flex justify-center mx-16'}>
               <img className={''} src="./images/home-table.svg" alt=""/>
           </div>
@@ -99,7 +120,7 @@ export const MainPageMobile:React.FC=()=>{
 
           <div className={'mt-150 relative'}>
               <img className={'max-w-175 absolute -left-20 -top-100'} src={"./images/home-cloud-2part2.svg"} alt=""/>
-              <img src={"./images/help-you.svg"} alt=""/>
+              <img src={"./images/help-you.png"} alt=""/>
               <div className={'flex justify-end -mr-60 '}>
                   <img className={'max-w-250'} src={"./images/home-cloud-2part2.svg"} alt=""/>
               </div>

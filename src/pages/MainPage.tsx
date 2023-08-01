@@ -10,6 +10,7 @@ import {Help} from "./ForMain/Help";
 import {MainPageMobile} from "./ForMain/MainPageMobile";
 
 
+
 export const MainPage:React.FC=()=>{
 
     const containerRef = useRef<HTMLDivElement>(null)
@@ -19,7 +20,6 @@ export const MainPage:React.FC=()=>{
     useEffect(() => {
         if (view?.isIntersecting) {
             setIsVisible(true)
-            console.log(isVisible);
         }
     }, [view])
 
@@ -27,35 +27,31 @@ export const MainPage:React.FC=()=>{
       <>
           <div className={'desktop:hidden mobile:block'}><MainPageMobile/></div>
           <div className={cls('mobile:hidden')}>
-              <img className={'z-0 absolute top-0 animatedCloudLeft'} src={'./images/header-cloud.svg'} alt=""/>
-              <img className={cls('absolute top-50 left-50% right-50% animatedCloudRight ')} src={'./images/header-cloud2.svg'} alt=""/>
-              <div className={' mt-100'}>
-                  <div className={'flex '}>
+             <div className={'mt-100 relative'}>
+                  <div className={'flex justify-between '}>
                       <div  ref={containerRef} className={'max-w-590 ml-100 animatedText'}>
                           <div className={'text-16'}>MEET OUR NEW</div>
                           <div className={'text-64'}>PSYCHOLOGICAL SERVICES CENTER</div>
                           <div className={'text-16 mt-20'}>Our specialties include couples therapy, communication enhancement, navigating divorce, self-esteem building, and pre-marital counseling. addressing infidelity, adjusting to break-ups, relationship skill-building.</div>
                           <img className={'m-auto mt-65'} src={'./images/home-learn-more.svg'} alt=""/>
                       </div>
-
-                      <div>
+                      <div className={''}>
                           <div className={''}>
-                              <img className={'z-0 absolute left-1/2 animatedCloudRight'} src={'./images/home-big-cloud2.svg'} alt=""/>
+                              <img className={'z-0 absolute left-50%  animatedCloudRight'} src={'./images/home-big-cloud2.svg'} alt=""/>
                           </div>
                           <div className={''}>
-                              <img className={'z-1 absolute left-50% animatedHeart'} src={'./images/home-heart.svg'} alt=""/>
+                              <img className={'z-1 animatedHeart'} src={'./images/home-heart.svg'} alt=""/>
                           </div>
                       </div>
                   </div>
-
               </div>
+
               <WeHaveStory/>
               <Meeting/>
               <TrueLove/>
               <Frustration/>
               <Chance/>
               <Help/>
-
           </div>
       </>
 

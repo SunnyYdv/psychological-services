@@ -12,7 +12,6 @@ export const Frustration:React.FC=()=>{
     useEffect(() => {
         if (view?.isIntersecting) {
             setIsVisible(true)
-            console.log(isVisible);
         }
     }, [view])
 
@@ -22,9 +21,9 @@ export const Frustration:React.FC=()=>{
           <div className={'flex justify-end'}>
               <img className={'max-w-200'} src="./images/stick.webp" alt=""/>
           </div>
-          <div ref={containerRef} className={'ml-100 flex gap-x-140'}>
+          <div ref={containerRef} className={'ml-100 flex gap-x-60'}>
               <div className={'relative'}>
-                  <img  className={cls(isVisible && 'animatedCircle2')} src="./images/circle3.svg" alt=""/>
+                  <img  className={cls(isVisible && 'animatedCircle3')} src="./images/circle3.svg" alt=""/>
                   <img className={cls('absolute top-0', isVisible && "animatedCircle4")} src="./images/beer.svg" alt=""/>
               </div>
               <div>

@@ -101,11 +101,11 @@
   animation-name: animatedCircle;
   -webkit-animation-name: animatedCircle;
   animation-duration: 4s;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0.5s;
 }
 
 
@@ -123,12 +123,12 @@
   opacity: 0;
   animation-name: animatedCircle2;
   animation-duration: 4s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: animatedCircle2;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-delay:2s
+  -webkit-animation-delay:1s
 }
 
 @keyframes animatedCircle3 {
@@ -144,12 +144,12 @@
   opacity: 0;
   animation-name: animatedCircle3;
   animation-duration: 4s;
-  animation-delay: 3s;
+  animation-delay: 1.5s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: animatedCircle3;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-delay:3s
+  -webkit-animation-delay:1.5s
 }
 
 
@@ -167,12 +167,12 @@
   opacity: 0;
   animation-name: animatedCircle4;
   animation-duration: 4s;
-  animation-delay: 3.5s;
+  animation-delay:2s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: animatedCircle4;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-delay:3.5s
+  -webkit-animation-delay:2s
 }
 
 
@@ -266,11 +266,11 @@
 .animatedCloudOutLittle {
   opacity: 0;
   animation-name: animatedCloudOutLittle;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: both;
   animation-delay: 1s;
   -webkit-animation-name: animatedCloudOutLittle;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 1s;
 }
@@ -292,11 +292,11 @@
 .animatedCloudOutBigLeft {
   opacity: 0;
   animation-name: animatedCloudOutBigLeft;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: both;
   animation-delay: 1s;
   -webkit-animation-name: animatedCloudOutBigLeft;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 1s;
 }
@@ -317,11 +317,11 @@
 .animatedCloudOutRight {
   opacity: 0;
   animation-name: animatedCloudOutRight;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: both;
   animation-delay: 1s;
   -webkit-animation-name: animatedCloudOutRight;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 1s;
 }

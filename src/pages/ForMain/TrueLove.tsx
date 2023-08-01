@@ -7,9 +7,8 @@ export const TrueLove:React.FC=()=>{
       <>
           <div>
               <img className={'rotate-180 max-w-200 branch'} src="./images/stick.webp" alt=""/>
-              <div className={'flex items-center'}>
-
-                  <div className={'ml-205 max-w-400'}>
+              <div className={'flex justify-between items-center'}>
+                  <div className={'ml-205 max-w-400 '}>
                       <div className={'flex gap-x-40'}>
                           <img className={''} src="./images/true-love.svg" alt=""/>
                           <img className={'pulse'} src="./images/home-2hearts.svg" alt=""/>
