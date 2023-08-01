@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <div
-      className={"mt-100 max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
+      className={"mt-50 max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
     >
       <img onClick={()=>{window.scroll(0,10000000)}}
         src="/images/journey.webp"

@@ -27,7 +27,10 @@ export const MainPage:React.FC=()=>{
       <>
           <div className={'desktop:hidden mobile:block'}><MainPageMobile/></div>
           <div className={cls('mobile:hidden grow max-w-[1400px] ml-auto mr-auto')}>
-             <div className={'mt-100 relative'}>
+              <img className={'z-0 absolute top-0 left-0 animatedCloudLeft'} src={'./images/header-cloud.svg'} alt=""/>
+              <img className={cls('absolute top-50 left-50% right-50% animatedCloudRight mobile:mt-100')} src={'./images/header-cloud2.svg'} alt=""/>
+
+              <div className={'mt-100 relative'}>
                   <div className={'flex justify-between '}>
                       <div  ref={containerRef} className={'max-w-590 ml-100 animatedText'}>
                           <div className={'text-16'}>MEET OUR NEW</div>
