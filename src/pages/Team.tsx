@@ -16,8 +16,9 @@ export const Team = () => {
           </p>
 
           <img
+              onClick={()=>{window.scroll(0,100000)}}
             src="/images/button-icon-down.webp"
-            className="max-w-100 mx-auto"
+            className="max-w-100 mx-auto cursor-pointer"
           />
         </div>
         <div className="relative">

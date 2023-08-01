@@ -41,13 +41,13 @@ import {Icons} from "#static/svg/EXPORT";
                         <div>
                             <div className={'flex gap-x-30 text-16'}>
 
-                                <div onClick={toAbout} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
+                                <div onClick={()=>{toAbout(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
                                 })}>ABOUT</div>
 
-                                <div onClick={toTeam} className={cls("cursor-pointer", {" ": location.pathname.includes("team"),
+                                <div onClick={()=>{toTeam(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("team"),
                                 })}>OUR TEAM</div>
 
-                                <div onClick={toContact} className={cls("cursor-pointer", {" ": location.pathname.includes("contact"),
+                                <div onClick={()=>{toContact(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("contact"),
                                 })}>CONTACT</div>
 
                             </div>
@@ -98,13 +98,13 @@ import {Icons} from "#static/svg/EXPORT";
                     </div>
                     <div className={'text-16'}>
 
-                        <div onClick={toAbout} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
+                        <div onClick={()=>{toAbout(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("about"),
                         })}>ABOUT</div>
 
-                        <div onClick={toTeam} className={cls("cursor-pointer my-8", {" ": location.pathname.includes("team"),
+                        <div onClick={()=>{toTeam(); window.scroll(0,0)}} className={cls("cursor-pointer my-8", {" ": location.pathname.includes("team"),
                         })}>OUR TEAM</div>
 
-                        <div onClick={toContact} className={cls("cursor-pointer", {" ": location.pathname.includes("contact"),
+                        <div onClick={()=>{toContact(); window.scroll(0,0)}} className={cls("cursor-pointer", {" ": location.pathname.includes("contact"),
                         })}>CONTACT</div>
                     </div>
                 </div>
