@@ -26,7 +26,7 @@ export const MainPage:React.FC=()=>{
   return (
       <>
           <div className={'desktop:hidden mobile:block'}><MainPageMobile/></div>
-          <div className={cls('mobile:hidden')}>
+          <div className={cls('mobile:hidden grow max-w-[1400px] ml-auto mr-auto')}>
              <div className={'mt-100 relative'}>
                   <div className={'flex justify-between '}>
                       <div  ref={containerRef} className={'max-w-590 ml-100 animatedText'}>
@@ -45,7 +45,6 @@ export const MainPage:React.FC=()=>{
                       </div>
                   </div>
               </div>
-
               <WeHaveStory/>
               <Meeting/>
               <TrueLove/>

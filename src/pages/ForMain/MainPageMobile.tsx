@@ -78,6 +78,7 @@ export const MainPageMobile:React.FC=()=>{
           <div className={'flex justify-center'}>
               <img className={cls('')} src={'./images/circle2.svg'} alt=""/>
           </div>
+
           <div className={'flex justify-center mx-16'}>
               <img className={cls('')} src={'./images/circle3-mobile.svg'} alt=""/>
           </div>
@@ -120,7 +121,9 @@ export const MainPageMobile:React.FC=()=>{
 
           <div className={'mt-150 relative'}>
               <img className={'max-w-175 absolute -left-20 -top-100'} src={"./images/home-cloud-2part2.svg"} alt=""/>
-              <img src={"./images/help-you.png"} alt=""/>
+              <div className={'mx-16'}>
+                  <img className={''} src={"./images/help-you.png"} alt=""/>
+              </div>
               <div className={'flex justify-end -mr-60 '}>
                   <img className={'max-w-250'} src={"./images/home-cloud-2part2.svg"} alt=""/>
               </div>

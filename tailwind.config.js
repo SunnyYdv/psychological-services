@@ -141,6 +141,7 @@ module.exports = {
         230: pxToRem(230),
         280: pxToRem(280),
         320: pxToRem(320),
+        340: pxToRem(340),
         325: pxToRem(325),
         360: pxToRem(360),
         362: pxToRem(362),
