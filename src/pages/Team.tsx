@@ -1,4 +1,9 @@
+import {useRef} from "react";
+
 export const Team = () => {
+  const teamRef = useRef<HTMLDivElement>(null)
+  const scrollRef = () => teamRef?.current?.scrollIntoView()
+
   return (
     <div className={"max-w-1400 mx-auto px-100 mobile:px-20 py-50"}>
       <div className="flex mobile:flex-col mobile:items-center gap-80 mobile:gap-40 mb-40 mobile:mb-70">
@@ -16,7 +21,7 @@ export const Team = () => {
           </p>
 
           <img
-              onClick={()=>{window.scroll(0,100000)}}
+              onClick={scrollRef}
             src="/images/button-icon-down.webp"
             className="max-w-100 mx-auto cursor-pointer"
           />
@@ -32,7 +37,7 @@ export const Team = () => {
           </div>
         </div>
       </div>
-      <h2 className="mb-40">TEAM MEMBERS</h2>
+      <h2 ref={teamRef} className="mb-40">TEAM MEMBERS</h2>
       <div className="flex justify-center flex-wrap gap-20 px-20">
         <div>
           <img

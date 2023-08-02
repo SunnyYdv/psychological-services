@@ -1,13 +1,26 @@
+import {useRef} from "react";
+
 export const About = () => {
+  const aboutRef = useRef<HTMLDivElement>(null)
+  const scrollRef = () => aboutRef?.current?.scrollIntoView()
+
+
+
   return (
     <div
       className={"mt-50 max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
     >
-      <img onClick={()=>{window.scroll(0,10000000)}}
-        src="/images/journey.webp"
-        className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120 cursor-pointer"
-      />
-      <img src="/images/who-we-are.webp" className="mx-auto mb-50" />
+
+        <img
+             src="/images/join.png"
+             className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120"
+        />
+        <img onClick={scrollRef} className={'-mt-160 mx-auto cursor-pointer'} src="/images/button-icon.svg" alt=""/>
+
+
+
+
+      <img ref={aboutRef} src="/images/who-we-are.webp" className="mx-auto mt-120 mb-50" />
       <div className="flex items-center space-x-300 tablet:space-x-0 tablet:flex-col tablet:items-end mb-160 tablet:mb-40">
         <div className="tablet:order-last">
           <h2 className="text-64 tablet:text-30 mb-20">History</h2>
