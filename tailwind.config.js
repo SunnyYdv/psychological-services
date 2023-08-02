@@ -154,6 +154,7 @@ module.exports = {
         480: pxToRem(480),
         488: pxToRem(488),
         492: pxToRem(492),
+        500: pxToRem(500),
         544: pxToRem(544),
         580: pxToRem(580),
         590: pxToRem(590),

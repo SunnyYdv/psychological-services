@@ -36,7 +36,7 @@ export const About = () => {
             </span>*/}
 
 
-          <span className={'inline relative p-6'}>
+          <span className={'inline relative p-7'}>
               <img className={'inline'} src="./images/ellipse.svg" alt=""/>
             <span className={'absolute left-8 top-5 '}> to change lives</span>
             </span>
@@ -71,10 +71,21 @@ export const About = () => {
           <h2 className="text-64 tablet:text-30 mb-20">
             Promoting Mental Health
           </h2>
-          Our mission begins with promoting mental health as a critical part of
-          overall wellness. We are dedicated to increasing awareness and
-          understanding of mental health in our community, helping to break down
-          the barriers of stigma and misinformation.
+
+         <p className={'inline'}>  Our mission begins with promoting mental health as a critical part of
+             overall wellness. We are dedicated to</p>
+          <span className={'inline relative p-7'}>
+              <img className={'inline'} src="./images/ellipse2.svg" alt=""/>
+            <span className={'absolute left-8 top-5 '}> increasing awareness</span>
+            </span>
+
+          <p className={'inline'}>
+            and
+            understanding of mental health in our community, helping to break down
+            the barriers of stigma and misinformation.
+          </p>
+
+
         </p>
       </div>
       <div className="mb-80 tablet:pt-200 relative">
@@ -84,9 +95,9 @@ export const About = () => {
         />
         <p className="max-w-50% tablet:max-w-full">
           <h2 className="text-64 tablet:text-30 mb-20">Early Identification</h2>
-          We prioritize prevention and early identification of mental health
-          issues. By catching potential problems early, we can provide effective
-          interventions and prevent further complications.
+          We prioritize prevention and early identification of mental health issues.
+          By catching potential problems early
+          ,we can provide effective interventions and prevent further complications.
         </p>
       </div>
       <div className="mb-80 tablet:pt-200 relative">
