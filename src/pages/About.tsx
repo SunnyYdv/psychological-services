@@ -10,45 +10,26 @@ export const About = () => {
     <div
       className={"mt-50 max-w-1400 relative py-30 pb-60 mx-auto px-100 tablet:px-26"}
     >
-
         <img
              src="/images/join.png"
              className="max-w-600 max-h-600 tablet:max-w-320 object-fit mx-auto mb-120"
         />
         <img onClick={scrollRef} className={'-mt-160 mx-auto cursor-pointer'} src="/images/button-icon.svg" alt=""/>
-
-
-
-
       <img ref={aboutRef} src="/images/who-we-are.webp" className="mx-auto mt-120 mb-50" />
       <div className="flex items-center space-x-300 tablet:space-x-0 tablet:flex-col tablet:items-end mb-160 tablet:mb-40">
         <div className="tablet:order-last">
           <h2 className="text-64 tablet:text-30 mb-20">History</h2>
-          <p className={'inline'}>
+
             Founded in 2008, we have a proud history of providing compassionate
             and comprehensive mental health services. We started with a small
-            team of dedicated professionals, eager </p>
-   {/*         <span className={' inline'}>
-
-              <img className={'inline'} src="./images/ellipse.svg" alt=""/>
-
-              <span className={'bg-about bg-center py-20 px-10 bg-no-repeat whitespace-nowrap'}> to change lives</span>
-            </span>*/}
-
-
-          <span className={'inline relative p-7'}>
-              <img className={'inline'} src="./images/ellipse.svg" alt=""/>
-            <span className={'absolute left-8 top-5 '}> to change lives</span>
-            </span>
-            <p className={'inline'}>
-              through our
+            team of dedicated professionals, eager to change lives through our
               expertise in mental health care. Over the years, our center has
               grown to accommodate an expanding community, staying committed to
               our original vision of creating a safe space for healing. Today, we
               are a multidisciplinary team, continually building on our strong
               foundation and innovating in response to the changing needs of our
               patients.
-          </p>
+
         </div>
         <img
           src="/images/hearts.webp"
@@ -71,21 +52,9 @@ export const About = () => {
           <h2 className="text-64 tablet:text-30 mb-20">
             Promoting Mental Health
           </h2>
-
-         <p className={'inline'}>  Our mission begins with promoting mental health as a critical part of
-             overall wellness. We are dedicated to</p>
-          <span className={'inline relative p-7'}>
-              <img className={'inline'} src="./images/ellipse2.svg" alt=""/>
-            <span className={'absolute left-8 top-5 '}> increasing awareness</span>
-            </span>
-
-          <p className={'inline'}>
-            and
-            understanding of mental health in our community, helping to break down
+       Our mission begins with promoting mental health as a critical part of overall wellness. We are dedicated to
+            increasing awareness and understanding of mental health in our community, helping to break down
             the barriers of stigma and misinformation.
-          </p>
-
-
         </p>
       </div>
       <div className="mb-80 tablet:pt-200 relative">
