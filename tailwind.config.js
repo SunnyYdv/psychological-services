@@ -130,6 +130,7 @@ module.exports = {
         8: pxToRem(8)
       },
       backgroundImage: {
+        'about' : 'url("/images/ellipse.svg")',
         'main-chair': 'url("/images/main-chair.jpg")',
         'main': 'url("/images/main.png")',
         'main-footer': 'url("/images/main-footer.jpg")'

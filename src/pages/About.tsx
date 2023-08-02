@@ -24,16 +24,30 @@ export const About = () => {
       <div className="flex items-center space-x-300 tablet:space-x-0 tablet:flex-col tablet:items-end mb-160 tablet:mb-40">
         <div className="tablet:order-last">
           <h2 className="text-64 tablet:text-30 mb-20">History</h2>
-          <p>
+          <p className={'inline'}>
             Founded in 2008, we have a proud history of providing compassionate
             and comprehensive mental health services. We started with a small
-            team of dedicated professionals, eager to change lives through our
-            expertise in mental health care. Over the years, our center has
-            grown to accommodate an expanding community, staying committed to
-            our original vision of creating a safe space for healing. Today, we
-            are a multidisciplinary team, continually building on our strong
-            foundation and innovating in response to the changing needs of our
-            patients.
+            team of dedicated professionals, eager </p>
+   {/*         <span className={' inline'}>
+
+              <img className={'inline'} src="./images/ellipse.svg" alt=""/>
+
+              <span className={'bg-about bg-center py-20 px-10 bg-no-repeat whitespace-nowrap'}> to change lives</span>
+            </span>*/}
+
+
+          <span className={'inline relative p-6'}>
+              <img className={'inline'} src="./images/ellipse.svg" alt=""/>
+            <span className={'absolute left-8 top-5 '}> to change lives</span>
+            </span>
+            <p className={'inline'}>
+              through our
+              expertise in mental health care. Over the years, our center has
+              grown to accommodate an expanding community, staying committed to
+              our original vision of creating a safe space for healing. Today, we
+              are a multidisciplinary team, continually building on our strong
+              foundation and innovating in response to the changing needs of our
+              patients.
           </p>
         </div>
         <img
