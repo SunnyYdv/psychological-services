@@ -19,7 +19,7 @@ export const Chance:React.FC=()=>{
                       <div className={'text-16 max-w-400'}>Many couples have relationship problems. They'll get help from specialists in these situations. The success of therapy is impossible without support from each other. That's why the fly and the Sarracenia are always together and find a way out of the problem.</div>
                   </div>
                   <div className={'relative'}>
-                      <img className={''} src={"./images/home-chance.svg"} alt=""/>
+                      <img className={'max-w-600'} src={"./images/home-chance.png"} alt=""/>
                       <img className={'absolute -right-150 bottom-40'} src={"./images/home-lamp.svg"} alt=""/>
                   </div>
 

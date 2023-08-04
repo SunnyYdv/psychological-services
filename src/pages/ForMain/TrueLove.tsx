@@ -16,7 +16,7 @@ export const TrueLove:React.FC=()=>{
                       <div className={'mt-20'}>The Sarracenia refuses to eat insects for them love. Now she drinks water and photosynthesis like all ordinary flowers. Their feelings are getting stronger every day. They have first date, long moonlight walks. Their love story is so romantic.</div>
                   </div>
                   <div>
-                      <img className={''} src="./images/home-table.svg" alt=""/>
+                      <img className={'max-w-730'} src="./images/home-table.png" alt=""/>
                   </div>
               </div>
           </div>

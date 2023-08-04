@@ -23,8 +23,8 @@ export const Frustration:React.FC=()=>{
           </div>
           <div ref={containerRef} className={'ml-100 flex gap-x-60'}>
               <div className={'relative'}>
-                  <img  className={cls(isVisible && 'animatedCircle3')} src="./images/circle3.svg" alt=""/>
-                  <img className={cls('absolute top-0', isVisible && "animatedCircle4")} src="./images/beer.svg" alt=""/>
+                  <img  className={cls(isVisible && 'animatedCircle3 max-w-600')} src="./images/circle3.png" alt=""/>
+                  <img className={cls('absolute top-0', isVisible && "animatedCircle4")} src="./images/beer.png" alt=""/>
               </div>
               <div>
                   <div className={'flex gap-x-20 mb-40'}>

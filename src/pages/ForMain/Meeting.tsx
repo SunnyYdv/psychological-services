@@ -7,7 +7,7 @@ export const Meeting:React.FC=()=>{
   return (
       <>
           <div className={'mx-100 flex justify-between'}>
-              <img src={"./images/meeting-photo.svg"} alt=""/>
+              <img className={'max-w-715'} src={"./images/meeting-photo.png"} alt=""/>
               <div>
                   <img src={"./images/meeting.svg"} alt=""/>
                   <div className={'text-16 max-w-400 mt-20'}>One day the most ordinary fly saw the most charming flower in the world. This love wasn't supposed to happen, but it did. It was love at first sight, at last sight, at ever and ever sight. A fly and a Sarracenia fall in love.</div>
