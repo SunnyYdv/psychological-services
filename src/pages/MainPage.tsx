@@ -47,10 +47,10 @@ export const MainPage:React.FC=()=>{
                       </div>
                       <div className={''}>
                           <div className={''}>
-                              <img className={'z-0 absolute left-50%  animatedCloudRight'} src={'./images/home-big-cloud2.svg'} alt=""/>
+                              <img className={'z-0 absolute left-50%  animatedCloudRight max-w-940'} src={'./images/home-big-cloud2.png'} alt=""/>
                           </div>
                           <div className={''}>
-                              <img className={'z-1 animatedHeart'} src={'./images/home-heart.svg'} alt=""/>
+                              <img className={'z-1 animatedHeart max-w-575'} src={'./images/home-heart.png'} alt=""/>
                           </div>
                       </div>
                   </div>
