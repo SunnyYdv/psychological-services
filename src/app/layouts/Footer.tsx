@@ -78,10 +78,10 @@ import {Icons} from "#static/svg/EXPORT";
 
                     </div>
                 </div>
-                <div className={'flex justify-between pointer-events-none'}>
-                    <img className={'mt-5'} src={'./images/bushesFooterOne.svg'} alt=""/>
-                    <img src={'./images/bushesFooterTwo.svg'} alt=""/>
-                    <img src={'./images/bushesFooterTree.svg'} alt=""/>
+                <div className={'flex gap-x-20 justify-between relative pointer-events-none mt-300'}>
+                    <img className={'max-w-437 absolute bottom-0'} src={'./images/bushesFooterOne.png'} alt=""/>
+                    <img className={'max-h-67 max-w-195 m-auto absolute bottom-0 left-0 right-0'} src={'./images/bushesFooterTwo.png'} alt=""/>
+                    <img className={'max-w-437 absolute bottom-0 left-auto right-0'} src={'./images/bushesFooterTree.png'} alt=""/>
                 </div>
 
             </div>
@@ -126,7 +126,7 @@ import {Icons} from "#static/svg/EXPORT";
                         <div className={'ml-10'}>YouTube</div>
                     </div>
                 </div>
-                    <img className={'mt-32'} src={'./images/bushesFooterTree.svg'} alt=""/>
+                    <img className={'mt-32'} src={'./images/bushesFooterTree.png'} alt=""/>
             </div>
         </>
 
